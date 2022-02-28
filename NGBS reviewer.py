@@ -281,10 +281,11 @@ def dissect(file):
         xlname = xlname.replace(":", "")
         xlname = xlname.replace("/", "")
         xlname = xlname.replace("\\", "")
+        xlname = xlname.replace("\n", " ")
     except:
         return
 
-    
+    print (xlname)
     filename_extracted = rOrF + ' ' + xlname + ' extracted.xlsx'
     filename_reviewer = rOrF + ' ' + xlname + '_REVIEW.xlsx'
     value = 14

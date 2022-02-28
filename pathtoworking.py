@@ -8,8 +8,8 @@ from collections import defaultdict
 
 ################################################################
 ## Create SQS client for incoming files to translate
-ACCESS_KEY = 'AKIATOBVOLOTY3CR4TMG'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 queue_url_recieve = 'https://sqs.us-east-1.amazonaws.com/236335291303/testNGBS'
 queue_url_outgoing = 'https://sqs.us-east-1.amazonaws.com/236335291303/RecieptQ'
 localLocation = "C:\\Users\\spasikhani\\Desktop\\venv\\drop folder\\"
